@@ -1,22 +1,15 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './app/**/*.{html,js,jsx}',
-    './components/**/*.{html,js,jsx}',
-    './sections/**/*.{html,js,jsx}',
-    './styles/**/*.{js,jsx}',
-  ],
-  mode: 'jit',
   theme: {
     extend: {
-      colors: {
-        'primary-black': '#1A232E',
-        'secondary-white': '#c7c7c7',
-      },
-      transitionTimingFunction: {
-        'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
-      },
-    },
+      typography: {
+        DEFAULT: {
+          css: {
+            h1: { fontSize: '2.5rem', fontWeight: '700' },
+            h2: { fontSize: '2rem', fontWeight: '600' },
+          }
+        }
+      }
+    }
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };
