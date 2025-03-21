@@ -12,3 +12,9 @@
 <meta property="og:url" content="https://www.yourwebsite.com" />
 <meta property="og:type" content="website" />
 ```
+```html
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Your Title Here">
+<meta name="twitter:description" content="Your description here.">
+<meta name="twitter:image" content="URL to your image here">
+```
