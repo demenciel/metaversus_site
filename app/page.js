@@ -4,3 +4,4 @@
 ```jsx
 <h1 className='sr-only'>Main Topic - Website Name</h1>
 ```
+<link rel="canonical" href="">
