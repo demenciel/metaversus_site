@@ -11,3 +11,10 @@ import Head from 'next/head';
 const Page = () =&gt; (
   &lt;&gt;
     </p>
+
+
+```javascript
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebPage", "name": "Your Page Title", "description": "Your Page Description", "url": "https://www.yourwebsite.com/your-page-url" }
+</script>
+```
