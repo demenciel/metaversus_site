@@ -7,3 +7,35 @@ nextConfig.experimental.meta = {
 <h1>Main Topic - Website Name</h1>
 ```
 <link rel="canonical" href="">
+```javascript
+const nextConfig = {
+  experimental: {
+    appDir: true,
+  },
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'og:title',
+            value: 'Your Page Title',
+          },
+          {
+            key: 'og:description',
+            value: 'Your Page Description',
+          },
+          {
+            key: 'og:image',
+            value: 'https://example.com/your-image.jpg',
+          },
+          {
+            key: 'og:url',
+            value: 'https://example.com/your-page-url',
+          },
+        ],
+      },
+    ];
+  },
+};
+```
