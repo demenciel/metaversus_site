@@ -39,3 +39,33 @@ const nextConfig = {
   },
 };
 ```
+```javascript
+module.exports = {
+  ...nextConfig,
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'twitter:card',
+            value: 'summary_large_image',
+          },
+          {
+            key: 'twitter:title',
+            value: 'Your Page Title',
+          },
+          {
+            key: 'twitter:description',
+            value: 'Your Page Description',
+          },
+          {
+            key: 'twitter:image',
+            value: 'URL to your image',
+          },
+        ],
+      },
+    ];
+  },
+};
+```
