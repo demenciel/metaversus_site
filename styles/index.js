@@ -1,3 +1,3 @@
 ```html
-<title>Your Website Title - Engaging Description Here</title>
+<meta name="description" content="Discover our exceptional services and solutions tailored for your needs. Experience quality, efficiency, and innovation with us.">
 ```
