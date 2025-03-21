@@ -4,3 +4,4 @@
 ```html
 <h1>Metaversus - Explore the Metaverse</h1>
 ```
+<link rel="canonical" href="">
