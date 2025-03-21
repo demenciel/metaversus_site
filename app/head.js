@@ -11,3 +11,9 @@
 <meta property="og:image" content="URL_to_image" />
 <meta property="og:url" content="URL_to_page" />
 ```
+```jsx
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Metaversus" />
+<meta name="twitter:description" content="Your description here." />
+<meta name="twitter:image" content="URL_to_image_here" />
+```
