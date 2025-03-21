@@ -27,3 +27,16 @@ const Page = () => (
 );
 
 export default Page;
+
+
+```jsx
+<script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Your Page Title",
+  "description": "Your page description.",
+  "url": "https://www.yoursite.com/page-url"
+})}
+</script>
+```
