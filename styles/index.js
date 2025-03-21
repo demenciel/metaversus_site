@@ -21,3 +21,21 @@ const styles = {
 };
 
 export default styles;
+
+
+```javascript
+const schemaMarkup = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Your Website Name",
+  "url": "https://www.yourwebsiteurl.com",
+  "description": "A brief description of your website.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.yourwebsiteurl.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+};
+
+// You can include this in your HTML head using a <script type="application/ld+json"> tag.
+```
