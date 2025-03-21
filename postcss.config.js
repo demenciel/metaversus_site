@@ -5,3 +5,9 @@
 <h1>Main Topic - Website Name</h1>
 ```
 <link rel="canonical" href="">
+```html
+<meta property="og:title" content="Your Title Here" />
+<meta property="og:description" content="Your description here" />
+<meta property="og:image" content="URL to your image here" />
+<meta property="og:url" content="Your URL here" />
+```
