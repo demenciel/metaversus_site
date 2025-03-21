@@ -17,3 +17,14 @@
 <meta name="twitter:description" content="Your description here.">
 <meta name="twitter:image" content="URL_to_image_here">
 ```
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Your Website Name",
+  "url": "https://www.yourwebsite.com"
+}
+</script>
+```
