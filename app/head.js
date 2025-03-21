@@ -1,6 +1,6 @@
 const Head = () => (
   <>
-    <title>Metaversus: Explore the Future of Virtual Reality and Beyond</title>
+    <title>Explore the Metaversus: Your Gateway to Virtual Reality</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.ico" />
   </>
