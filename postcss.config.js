@@ -1,3 +1,3 @@
 ```html
-<title>Your SEO-Optimized Title Between 50-60 Characters</title>
+<meta name="description" content="Optimize your website's performance and SEO with our expert tips and tools for better mobile responsiveness and user experience.">
 ```
