@@ -1,29 +1,20 @@
-import { Footer, Navbar } from '../components';
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
+<p>```jsx
+<meta name="description" content="Discover insights, explore new worlds, and get started with our innovative solutions. Join us on a journey of feedback and growth.">
+```
+```jsx
+</p><h1 classname="sr-only">Main Topic - Website Name</h1><p>
+```
+<link rel="canonical" href="">
+```jsx
+import Head from 'next/head';
 
-const Page = () => (
-  <div className='bg-primary-black overflow-hidden'>
-    <Navbar />
-    <Hero />
-    <div className='relative'>
-      <About />
-      <div className='gradient-03 z-0' />
-      <Explore />
-    </div>
-    <div className='relative'>
-      <GetStarted />
-      <div className='gradient-04 z-0' />
-      <WhatsNew />
-    </div>
-    <div className='relative'>
-      <World />
-      <div className='gradient-04 z-0' />
-      <Insights />
-      <div className='gradient-05 z-0' />
-    </div>
-    <Feedback />
-    <Footer />
-  </div>
-);
+const Page = () =&gt; (
+  &lt;&gt;
+    </p>
 
-export default Page;
+
+```javascript
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebPage", "name": "Your Page Title", "description": "Your Page Description", "url": "https://www.yourwebsite.com/your-page-url" }
+</script>
+```
