@@ -27,3 +27,49 @@ const Page = () => (
 );
 
 export default Page;
+
+
+```javascript
+import Head from 'next/head';
+
+const Page = () => (
+  <div className='bg-primary-black overflow-hidden'>
+    <Head>
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Your Website Name",
+          "url": "https://www.yourwebsite.com",
+          "description": "A brief description of your website.",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.yourwebsite.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        })}
+      </script>
+    </Head>
+    <Navbar />
+    <Hero />
+    <div className='relative'>
+      <About />
+      <div className='gradient-03 z-0' />
+      <Explore />
+    </div>
+    <div className='relative'>
+      <GetStarted />
+      <div className='gradient-04 z-0' />
+      <WhatsNew />
+    </div>
+    <div className='relative'>
+      <World />
+      <div className='gradient-04 z-0' />
+      <Insights />
+      <div className='gradient-05 z-0' />
+    </div>
+    <Feedback />
+    <Footer />
+  </div>
+);
+```
