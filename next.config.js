@@ -1,3 +1,5 @@
-```html
-<title>Your SEO-Optimized Title Between 50-60 Characters</title>
+```javascript
+nextConfig.experimental.meta = {
+  description: "Your optimized meta description goes here for better SEO. Keep it between 150-160 characters."
+};
 ```
