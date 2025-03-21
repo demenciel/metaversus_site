@@ -4,3 +4,4 @@
 ```jsx
 <h1>Main Topic - Website Name</h1>
 ```
+<link rel="canonical" href="">
