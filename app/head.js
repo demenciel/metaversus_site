@@ -3,3 +3,9 @@
 ```
 <h1>Metaversus</h1>
 <link rel="canonical" href="">
+```jsx
+<meta property="og:title" content="Metaversus" />
+<meta property="og:description" content="Your description here" />
+<meta property="og:image" content="/path/to/image.jpg" />
+<meta property="og:url" content="https://yourwebsite.com" />
+```
