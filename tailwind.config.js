@@ -4,3 +4,4 @@
 ```html
 <h1 class="text-primary-black">Main Topic - Website Name</h1>
 ```
+<link rel="canonical" href="">
