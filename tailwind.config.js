@@ -11,3 +11,9 @@
 <meta property="og:image" content="URL_to_your_image.jpg" />
 <meta property="og:url" content="Your_page_URL" />
 ```
+```html
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Your Page Title">
+<meta name="twitter:description" content="Your page description goes here.">
+<meta name="twitter:image" content="URL_to_image.jpg">
+```
