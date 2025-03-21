@@ -24,3 +24,14 @@ export default Head;
   })}
 </script>
 ```
+
+```javascript
+<script type="application/ld+json">
+  {JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Metaversus",
+    "url": "https://www.metaversus.com"
+  })}
+</script>
+```
