@@ -27,3 +27,10 @@ const Page = () => (
 );
 
 export default Page;
+
+
+```javascript
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebPage", "name": "Your Page Title", "description": "Your Page Description", "url": "https://www.yourwebsite.com" }
+</script>
+```
