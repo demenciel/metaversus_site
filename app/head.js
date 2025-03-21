@@ -9,3 +9,9 @@
 <meta property="og:image" content="/path/to/image.jpg" />
 <meta property="og:url" content="https://yourwebsite.com" />
 ```
+```jsx
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Metaversus" />
+<meta name="twitter:description" content="Your description here" />
+<meta name="twitter:image" content="URL_to_image" />
+```
