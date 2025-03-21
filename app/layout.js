@@ -11,3 +11,25 @@ const RootLayout = ({ children }) => (
 );
 
 export default RootLayout;
+
+
+```javascript
+<head>
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Your Website Name",
+        "url": "https://yourwebsite.com",
+        "description": "A brief description of your website.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://yourwebsite.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    `}
+  </script>
+</head>
+```
