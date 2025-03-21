@@ -4,6 +4,12 @@ const RootLayout = ({ children }) => (
   <html lang="en">
     <head>
 ```jsx
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Your Title Here" />
+<meta name="twitter:description" content="Your description here." />
+<meta name="twitter:image" content="URL_to_your_image_here" />
+```
+```jsx
 <meta property="og:title" content="Your Page Title" />
 <meta property="og:description" content="Your Page Description" />
 <meta property="og:image" content="https://example.com/image.jpg" />
