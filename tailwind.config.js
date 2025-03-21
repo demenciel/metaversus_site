@@ -17,3 +17,19 @@
 <meta name="twitter:description" content="Your page description goes here.">
 <meta name="twitter:image" content="URL_to_image.jpg">
 ```
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Your Website Name",
+  "url": "https://www.yourwebsite.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.yourwebsite.com/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+```
