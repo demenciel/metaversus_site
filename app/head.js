@@ -15,3 +15,14 @@
 <meta name="twitter:description" content="Your description here" />
 <meta name="twitter:image" content="URL_to_image" />
 ```
+
+```jsx
+<script type="application/ld+json">
+  {JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Metaversus",
+    "url": "https://www.metaversus.com"
+  })}
+</script>
+```
